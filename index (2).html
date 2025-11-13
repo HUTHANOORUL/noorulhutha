@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attributes</title>
+    <style>
+        input[required]{
+            height: 20px;
+            width: 100px;
+        }
+        input[type=password]{
+            border-color: blue;
+        }
+        a    [ href^="https"]
+        {
+             text-decoration: none;
+        }
+        img[src$=".jpeg"]{
+             border-radius:50% ;
+        }
+        a[href*="blackthunder"]{
+            color: green;
+        }
+   </style>
+</head>
+<body>
+    <!--required-->
+    <input type="text" placeholder="text" required><br><br>
+    <!--exact-->
+    <input type="password" name="" id=""><br><br>
+    <!--first-->
+    <a href="https://t4teq.com">teq</a><br><br>
+    <!--end-->
+    <img src="img.jpeg" alt="no image"><br><br>
+    <!--middle-->
+    <a href="https://blackthunder.in">blackthunder</a>
+</body>
+</html>
